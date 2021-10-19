@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Welcome to my personal blog site!"
+date:   2021-10-16 14:49:17 +0700
+categories: self
+lang: en
+lang-ref: welcome
+hero: /assets/images/welcome/hero.jpg
+---
+{% if page.hero %}
+<img src="{{page.hero}}">
+{% endif %}
+
+Welcome page!
